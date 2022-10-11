@@ -17,8 +17,11 @@ const Header = () => {
         <HeaderSocials />
 
         <div className='me'>
-            <img src={ME} alt="me" />
+            <img style={{ width: 350, height: 400, marginLeft: 290}} src={ME} alt="me" />
         </div>
+
+        {/* DON'T FORGET TO INLINE STYLE THE SIZE OF THE PHOTO */}
+
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
 

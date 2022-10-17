@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import CustomPhoto from './CustomPhoto'
+import ME from '../../assets/app.svg'
 import HeaderSocials from './HeaderSocials'
 
 
@@ -15,16 +15,11 @@ const Header = () => {
         <h5 className="text-light">Software Engineer | Security Engineer </h5>
         <CTA />
         <HeaderSocials />
-        
-        <CustomPhoto />
 
-        {/* <div className='me'>
-            <img src={ME} viewBox="113 128 972 600"
+        <div className='me'>
+            <img src={ME} viewBox="0 0 300 600"
     preserveAspectRatio="xMidYMid meet" alt="me" />
-        </div> */}
-
-        {/* DON'T FORGET TO INLINE STYLE THE SIZE OF THE PHOTO */}
-
+        </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
 

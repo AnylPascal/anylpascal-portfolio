@@ -11,11 +11,11 @@
 }
 
 :root {
---color-bg: #1f1f38;  
---color-bg-variant: #2c2c6c;
+--color-bg: #ffff;  
+--color-bg-variant: #7a28de;
 --color-primary: #4db5ff;
 --color-primary-variant: rgba(77,181,255,0.4);
---color-white: #fff;
+--color-white: rgb(6, 6, 6);
 --color-light: rgba(255,255,255,0.6);
 
 --transition: all 400ms ease;
@@ -111,9 +111,10 @@ a:hover {
 }
 
 img {
-    display: block;
+    display: absolute;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
+    align-content: center;
 }
 
 /* ==========MEDIA QUERIES (MEDIUM DEVICES ====== */
@@ -122,7 +123,7 @@ img {
         width: var(--container-width-md);
     }
     section {
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 }
 

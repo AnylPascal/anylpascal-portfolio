@@ -20,9 +20,9 @@
 
 --transition: all 400ms ease;
 
---container-width-lg: 75%;
---container-width-md: 86%;
---container-width-ms: 90%;
+--container-width-lg: 100%;
+--container-width-md: 100%;
+--container-width-ms: 100%;
 }
 
 html {
@@ -112,11 +112,17 @@ a:hover {
 
 img {
     display: absolute;
-    width: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* padding: 4 4 4 4; */
+    width: 100rem;
+    height: 100rem;
     object-fit: cover;
-    align-content: center;
+    margin-top: 3rem;
+    /* border-radius: 1rem, 1rem, 0, 0; */
 
-    
+
+
 }
 
 /* ==========MEDIA QUERIES (MEDIUM DEVICES ====== */

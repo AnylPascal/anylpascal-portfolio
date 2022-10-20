@@ -1,19 +1,20 @@
 import React from 'react'
 import './about.css'
-import YOUNGBOY from '../../assets/image0.jpeg'
+// import YOUNGBOY from '../../assets/image0.jpeg'
+import COLO from '../../assets/image2.jpeg'
 import {GrUserWorker} from 'react-icons/gr'
 import {BsFolderCheck} from 'react-icons/bs'
-import {MdPeopleAlt} from 'react-icons/md'
+import {BsPeople} from 'react-icons/bs'
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know More</h5>
-      <h2>About Me</h2>
+      <h5 id="gtn">Get To Know More</h5>
+      <h2 id="gtn">About Me</h2>
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={YOUNGBOY} alt="About Me" />
+            <img width="500" src={COLO} alt="About Me" />
           </div>
 
         </div>
@@ -23,17 +24,17 @@ const About = () => {
             <article className='about__card'>
               <GrUserWorker className='about__icon'/>
               <h5>Experience</h5>
-              <small>2+ Years</small>
+              <small id='lil_one'>2+ Years</small>
             </article>
             <article className='about__card'>
-              <MdPeopleAlt className='about__icon'/>
+              <BsPeople className='about__icon'/>
               <h5>Clients</h5>
-              <small>1 Current Client</small>
+              <small id='lil_one'>1 Current Client</small>
             </article>
             <article className='about__card'>
               <BsFolderCheck className='about__icon'/>
               <h5>Projects</h5>
-              <small>5 Projects and Counting</small>
+              <small id='lil_one'>5 Projects and Counting</small>
             </article>
           </div>
           <p>

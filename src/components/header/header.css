@@ -31,8 +31,8 @@ header {
 
 .header__socials::after {
     content: '';
-    width: 3px;
-    height: 4rem;
+    width: 2px;
+    height: 2.5rem;
     background: var(--color-primary);
 }
 
@@ -45,11 +45,11 @@ header {
 /* ================ SCROLL DOWN ============== */
 .scroll__down {
     position: absolute;
-    right: -2rem;
+    right: -2.3rem;
     bottom: 5rem;
-    translate: rotate(90deg);
+    transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 /* ==========MEDIA QUERIES (MEDIUM DEVICES ====== */

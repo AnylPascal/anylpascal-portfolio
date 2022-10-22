@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 // import YOUNGBOY from '../../assets/image0.jpeg'
 import COLO from '../../assets/image2.jpeg'
-import {GrUserWorker} from 'react-icons/gr'
+import {GrWorkshop} from 'react-icons/gr'
 import {BsFolderCheck} from 'react-icons/bs'
 import {BsPeople} from 'react-icons/bs'
 
@@ -22,7 +22,7 @@ const About = () => {
 
           <div className='about__cards'>
             <article className='about__card'>
-              <GrUserWorker className='about__icon'/>
+              <GrWorkshop className='about__icon'/>
               <h5>Experience</h5>
               <small id='lil_one'>2+ Years</small>
             </article>

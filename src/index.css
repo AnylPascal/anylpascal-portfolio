@@ -12,11 +12,12 @@
 
 :root {
 --color-bg: #ffff;  
---color-bg-variant: rgba(80, 108, 100 );;
---color-primary: rgba(83, 145, 126  );
+--color-bg-variant: rgba(0,0,0);;
+--color-primary: rgba(191, 33, 30 );
 --color-primary-variant: rgba(77,181,255,0.4);
---color-black: rgb(83, 145, 126 );
---color-light: rgba(83, 145, 126);
+--color-black: rgba(0,0,0);
+--color-light: rgba(191, 33, 30);
+--color-white: rgba(255, 255, 255);
 
 --transition: all 400ms ease;
 
@@ -66,7 +67,7 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    /* color: var(--color-light); */
 }
 
 section > h2 {
@@ -83,10 +84,6 @@ a {
     transition: var(--transition);
 }
 
-a:hover {
-    color: var(--color-white)
-}
-
 .btn {
     width: max-content;
     display: inline-block;
@@ -100,7 +97,7 @@ a:hover {
 
 .btn:hover {
     background: rgba(0,0,0, 0.3);
-    color: var(--color-bg);
+    /* color: var(--color-bg); */
     border-color: transparent;
 
 }

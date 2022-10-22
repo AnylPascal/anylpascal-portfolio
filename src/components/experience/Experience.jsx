@@ -80,27 +80,27 @@ const Experience = () => {
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill />
-            <h4>Governance, Risk, and Compliance / Forensics</h4>
+            <h4>Governance, Risk, & Compliance / Forensics</h4>
             <small className='text-light'>Experienced</small>
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill />
-            <h4>Linux Administration and Hardening</h4>
+            <h4>Linux Administration & Hardening</h4>
             <small className='text-light'>Experienced</small>
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill />
-            <h4>Windows Administration and Hardening</h4>
+            <h4>Windows Administration & Hardening</h4>
             <small className='text-light'>Experienced</small>
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill />
-            <h4>Bash Scripting and Programming</h4>
+            <h4>Bash Scripting & Programming</h4>
             <small className='text-light'>Intermediate</small>
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill />
-            <h4>Cloud Security and Virtualization</h4>
+            <h4>Cloud Security & Virtualization</h4>
             <small className='text-light'>Experienced</small>
           </article>
           <article className='experience__details'>

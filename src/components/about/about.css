@@ -9,7 +9,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
+    background: linear-gradient(45deg, transparent,transparent);
     display: grid;
     place-items: center;
 
@@ -33,7 +33,7 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
+    background: var(--color-black);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -43,13 +43,14 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /* border-color: var(--color-white); */
     cursor: default;
 }
 
 .about__icon {
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .about__card h5 {
@@ -58,12 +59,12 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-black);
 }
 
 @media screen and (max-width: 1024px) {
@@ -73,11 +74,11 @@
 }
 
 #lil_one {
-    color: black;
+    color: var(--color-white);
 }
 
 #gtn    {
-    color: black;
+    color: var(--color-black);
 }
 
 /* ==========MEDIA QUERIES (MEDIUM DEVICES ====== */

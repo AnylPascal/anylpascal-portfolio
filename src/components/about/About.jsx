@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 // import YOUNGBOY from '../../assets/image0.jpeg'
 import COLO from '../../assets/image2.jpeg'
-import {GrWorkshop} from 'react-icons/gr'
+import {BsStoplightsFill} from 'react-icons/bs'
 import {BsFolderCheck} from 'react-icons/bs'
 import {BsPeople} from 'react-icons/bs'
 
@@ -21,15 +21,15 @@ const About = () => {
         <div className='about__content'>
 
           <div className='about__cards'>
-            <article className='about__card'>
-              <GrWorkshop className='about__icon'/>
-              <h5>Experience</h5>
-              <small id='lil_one'>2+ Years</small>
-            </article>
-            <article className='about__card'>
+            <article className='about__card'>   
               <BsPeople className='about__icon'/>
               <h5>Clients</h5>
               <small id='lil_one'>1 Current Client</small>
+            </article>
+            <article className='about__card'>
+            <BsStoplightsFill className='about__icon'/>
+              <h5>Experience</h5>
+              <small id='lil_one'>2+ Years</small>
             </article>
             <article className='about__card'>
               <BsFolderCheck className='about__icon'/>

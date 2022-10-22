@@ -42,8 +42,8 @@
 }
 
 .about__card:hover {
-    background: transparent;
-    /* border-color: var(--color-white); */
+    background: gray;
+    border-color: var(--color-white);
     cursor: default;
 }
 
@@ -61,6 +61,9 @@
     font-size: 0.7rem;
     color: var(--color-white);
 }
+
+
+
 
 .about__content p {
     margin: 2rem 0 2.6rem;
